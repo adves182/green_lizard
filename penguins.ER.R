@@ -6,3 +6,5 @@ penguins %>%
   group_by(species) %>% 
   summarize(across(where(is.numeric), mean, na.rm = TRUE))
 
+
+#diffeernt
