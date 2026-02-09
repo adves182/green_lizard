@@ -5,5 +5,4 @@ penguins %>%
 penguins %>% 
   group_by(species) %>% 
   summarize(across(where(is.numeric), mean, na.rm = TRUE))
-penguins%>%
-  group_by(island)
+
